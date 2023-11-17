@@ -51,12 +51,12 @@ div {
 img {
     display: block;
 }
-
+/*
 svg {
     width: 64px;
     height: 64px;
 }
-
+*/
 
 .container {
     width: 1158px;
@@ -271,11 +271,132 @@ svg {
     flex-direction: column;
 }
 
-/*Секція 2. Статті*/
+/*Модальна форма для введення данних*/
 
+.cross {
+    display: flex;
+    align-self: flex-end;
+    margin: 24px;
+}
+
+.div_for_modal_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    background: var(--DAIRY, #FCFCFC);
+    margin: auto;
+    margin-top: 80px;
+}
+
+.label_for_form_for_data {
+    width: 360px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--IRIS, #4D5AE5);
+    display: block;
+    position: relative;
+}
+.svg_for_form_for_data{
+    display: block;
+    position: absolute;
+}
+
+.icon_for_form_for_data {
+    padding-left: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: block;
+}
+
+
+.input_for_form_for_data {
+    border: 0px solid #fff;
+}
+
+.label_for_textarea_for_form_for_data {
+    width: 360px;
+        height: 120px;
+        border-radius: 4px;
+        border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+        display: block;
+}
+
+.textarea_for_form_for_data {
+    font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.48px;
+        border: 0px solid #fff;
+        resize: none;
+        width: 359px;
+            height: 119px;
+            padding-top: 8px;
+            padding-left: 16px;
+}
+
+.title_for_modal {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;  
+    letter-spacing: 0.32px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.p_for_label{
+    color: var(--LIGHT-SLATE, #8E8F99);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+}
+
+.p_policy {
+    font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        /* 116.667% */
+        letter-spacing: 0.48px;
+}
+
+.a_policy {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+    
+}
+
+.chak {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+
+/*Секція 2. Статті*/
 .sectiontwo {
     padding: 120px 0;
-
 }
 
 .visuallyhidden {
@@ -640,4 +761,89 @@ display: flex;
 align-items: center;
 justify-content: center;
 transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Поле вводу і кнопка у футері*/
+
+.form_for_e-mail{
+    margin-left: 80px;
+}
+
+.subscribe {
+    color: var(--WHITE, #FFF);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.label_for_e-mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.input_for_e-mail {
+    /*Стилізація поля вводу*/
+border-radius: 4px;
+border: 1px solid var(--WHITE, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background: var(--NAVY-BLUE, #2E2F42);
+width: 264px;
+height: 40px;
+/*Стилізація тексту*/
+color: var(--WHITE, #FFF);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    letter-spacing: 0.48px;
+    padding-left: 16px;
+    /*Розміщення елементів у блоці*/
+
+
+}
+
+.input_for_e-mail::placeholder{
+    /*Стилізація тексту підсказки*/
+    color: var(--WHITE, #FFF);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+    letter-spacing: 0.48px;
+    text-align: left;
+}
+
+.button_for_e-mail{
+display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    border-radius: 4px;
+        background: var(--IRIS, #4D5AE5);
+
+        width: 165px;
+            height: 40px;
+
+color: var(--WHITE, #FFF);
+text-align: center;
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+
+letter-spacing: 0.64px;
+
+margin-left: 24px;
 }
