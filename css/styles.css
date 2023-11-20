@@ -796,14 +796,30 @@ svg {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .close_button:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff
 }
 
 .close_button:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff
+}
+
+
+.close_button_icon {
+    fill: none;
+}
+
+.close_button_icon:hover {
+    fill: #ffffff
+}
+
+.close_button_icon:focus {
+    fill: #ffffff
 }
 
 .cross {
@@ -819,8 +835,11 @@ svg {
 }
 
 .div_in_form_for_data {
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
+    margin-bottom: 16px;
 }
+
+
 
 .label_for_form_for_data {
     font-size: 12px;
@@ -974,7 +993,7 @@ svg {
     display: block;
     min-width: 169px;
     height: 56px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
