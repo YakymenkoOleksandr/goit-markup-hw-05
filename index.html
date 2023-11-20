@@ -534,63 +534,68 @@
 
         <!--Форма-->
         <form class="modal_form_for_data">
+          <!--Перший елемент. Дів не може бути дочірнім елементом лейбел-->
           <div class="div_in_form_for_data">
             <label class="label_for_form_for_data" for="user-name">
               Name
+            </label>
+            <div class="div_in_label_in_form">
+              <input
+                class="input_for_form_for_data"
+                id="user-name"
+                name="user-name"
+                type="text"
+              />
+              <svg width="18" height="24" class="svg_for_form_for_data">
+                <use
+                  href="./images/icon-one.svg#icon-person"
+                  class="icon_for_form_for_data"
+                ></use>
+              </svg>
+            </div>
+
+            <div class="div_in_form_for_data">
+              <label class="label_for_form_for_data" for="phone"> Phone </label>
+              <!--Другий елемент. Дів не може бути дочірнім елементом лейбел-->
+
               <div class="div_in_label_in_form">
                 <input
                   class="input_for_form_for_data"
-                  id="user-name"
+                  id="phone"
                   name="user-name"
                   type="text"
                 />
                 <svg width="18" height="24" class="svg_for_form_for_data">
                   <use
-                    href="./images/icon-one.svg#icon-person"
+                    href="./images/icon-one.svg#icon-phone"
                     class="icon_for_form_for_data"
                   ></use>
                 </svg>
               </div>
-            </label>
 
-            <div class="div_in_form_for_data">
-              <label class="label_for_form_for_data" for="phone">
-                Phone
+              <div class="div_in_form_for_data">
+                <label class="label_for_form_for_data" for="email">
+                  Email
+                </label>
+
+                <!--Третій елемент. Дів не може бути дочірнім елементом лейбел-->
+
                 <div class="div_in_label_in_form">
                   <input
                     class="input_for_form_for_data"
-                    id="phone"
+                    id="email"
                     name="user-name"
                     type="text"
                   />
                   <svg width="18" height="24" class="svg_for_form_for_data">
                     <use
-                      href="./images/icon-one.svg#icon-phone"
+                      href="./images/icon-one.svg#icon-email"
                       class="icon_for_form_for_data"
                     ></use>
                   </svg>
                 </div>
-              </label>
 
-              <div class="div_in_form_for_data">
-                <label class="label_for_form_for_data" for="email">
-                  Email
-                  <div class="div_in_label_in_form">
-                    <input
-                      class="input_for_form_for_data"
-                      id="email"
-                      name="user-name"
-                      type="text"
-                    />
-                    <svg width="18" height="24" class="svg_for_form_for_data">
-                      <use
-                        href="./images/icon-one.svg#icon-email"
-                        class="icon_for_form_for_data"
-                      ></use>
-                    </svg>
-                  </div>
-                </label>
-
+                <!--Поле для вводу коментаря-->
                 <div class="div_for_input_text_area">
                   <label
                     class="label_for_textarea_for_form_for_data"
