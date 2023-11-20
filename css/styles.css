@@ -828,6 +828,7 @@ cursor: pointer;
 
 .div_in_label_in_form {
     position: relative;
+    
 }
 
 .input_for_form_for_data {
@@ -866,15 +867,26 @@ cursor: pointer;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
-    border: 0px solid #fff;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
     resize: none;
-    width: 359px;
-    height: 119px;
-    padding-top: 8px;
-    padding-left: 16px;
+    height: 120px;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.textarea_for_form_for_data:focus {
+    border-color: #4D5AE5;
+
+}
+
+
 
 .title_for_modal {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -898,6 +910,7 @@ cursor: pointer;
     line-height: 14px;
     /* 116.667% */
     letter-spacing: 0.48px;
+    margin-bottom: 24px;
 }
 
 .a_policy {
@@ -915,4 +928,54 @@ cursor: pointer;
 .chak {
     width: 16px;
     height: 16px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.label_for_text_area {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.span_for_text_area {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.button_send {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
