@@ -593,21 +593,19 @@
             </div>
           </div>
 
-          <!--Поле для вводу коментаря-->
-          <div class="div_for_input_text_area">
-            <label
-              class="label_for_textarea_for_form_for_data"
-              for="user-comment"
-            >
+          <!--Четвертий елемент. Поле для вводу коментаря-->
+          <div class="div_in_form_for_data">
+            <label for="user-comment" class="label_for_form_for_data">
               Comment
-              <textarea
-                class="textarea_for_form_for_data"
-                name="Comment"
-                rows="5"
-                placeholder="Text input"
-                id="user-comment"
-              ></textarea>
             </label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="textarea_for_form_for_data"
+            ></textarea>
+
+            <!--Пятий елемент. Чекбокс.-->
 
             <div class="p_policy">
               <input
@@ -618,8 +616,9 @@
                 class="visually-hidden"
                 id="user-privacy"
               />
-              <label for="user-privacy" class="label_for_text_area"
-                >I accept the terms and conditions of the
+
+              <label for="user-privacy" class="label_for_text_area">
+                I accept the terms and conditions of the
                 <span class="span_for_text_area">
                   <svg width="10" height="8" class="checkbox_svg">
                     <use href=" ./images/"></use>
