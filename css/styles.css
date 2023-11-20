@@ -51,6 +51,7 @@ div {
 img {
     display: block;
 }
+
 /*
 svg {
     width: 64px;
@@ -117,7 +118,7 @@ svg {
 /*Підкреслення в меню навігації*/
 
 
-.navone{
+.navone {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -130,24 +131,24 @@ svg {
     position: relative;
     color: #404bbf;
 
-    transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav:hover {
     color: #404bbf;
 }
 
- .navone::after {
-     content: '';
-     display: inline-block;
-     position: absolute;
-     left: 0;
-     bottom: -1px;
-     height: 4px;
-     background-color: #404bbf;
-     border-radius: 2px;
-     width: 100%;
- }
+.navone::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    width: 100%;
+}
 
 .nav:focus {
     color: #404bbf;
@@ -211,7 +212,7 @@ svg {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
 }
 
 .uppermain {
@@ -342,7 +343,7 @@ svg {
     border-radius: 0px 0px 4px 4px;
     max-width: 264px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-     0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .sectionthree {
@@ -408,9 +409,9 @@ svg {
 }
 
 .sectionthreeicons li {
-width: 40px;
-height: 40px;
-margin-top: 8px;
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
 }
 
 .ellipse {
@@ -423,12 +424,12 @@ margin-top: 8px;
 .mesedjerlink {
     width: 100%;
     height: 100%;
-    background-color:#4d5ae5;
+    background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mesedjerlink:hover {
@@ -470,7 +471,7 @@ margin-top: 8px;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    
+
 }
 
 
@@ -501,8 +502,9 @@ margin-top: 8px;
 
 
 /*Анімація зміни картинки на параграф*/
- /*Налаштування позиціонування для параграфу під картинкою*/
-.sectionfourli {                                        /*div*/
+/*Налаштування позиціонування для параграфу під картинкою*/
+.sectionfourli {
+    /*div*/
     width: calc((100% - 48px) / 3);
     max-width: 360px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -510,12 +512,15 @@ margin-top: 8px;
     overflow: hidden;
 }
 
-.imageapp {                                         /*Картинка*/
+.imageapp {
+    /*Картинка*/
     position: relative;
     overflow: hidden;
 }
 
-.hovertext {                                        /*overlay*/ /*Параграф*/
+.hovertext {
+    /*overlay*/
+    /*Параграф*/
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -531,8 +536,9 @@ margin-top: 8px;
     transform: translateY(100%);
 }
 
- .sectionfourli:hover .hovertext {  /*Виїзджання параграфу на картинку*/
-transform: translateY(0%);
+.sectionfourli:hover .hovertext {
+    /*Виїзджання параграфу на картинку*/
+    transform: translateY(0%);
 }
 
 
@@ -590,13 +596,13 @@ transform: translateY(0%);
 
 .socialmedia {
     color: var(--WHITE, #FFF);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5em;
-        letter-spacing: 0.02em;
-        margin-bottom: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .footericons {
@@ -608,14 +614,14 @@ transform: translateY(0%);
 
 .footermesedjerlink {
     width: 100%;
-        height: 100%;
-        background-color: #4d5ae5;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        gap: 16px;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 16px;
 }
 
 .footermesedjerlink:hover {
@@ -627,24 +633,24 @@ transform: translateY(0%);
 }
 
 .footermesedjerlink:active {
-        background-color: #31d0aa;
-    }
+    background-color: #31d0aa;
+}
 
 
 .fotterli {
-width: 40px;
-height: 40px;
-background-color:#4d5ae5;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Поле вводу і кнопка у футері*/
 
-.form_for_e-mail{
+.form_for_e-mail {
     margin-left: 80px;
     gap: 24px;
     display: flex;
@@ -652,14 +658,14 @@ transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .subscribe {
     color: var(--WHITE, #FFF);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5em;
-        letter-spacing: 0.02em;
-        margin-bottom: 16px;
-        margin-left: 80px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    margin-left: 80px;
 }
 
 .label_for_e-mail {
@@ -669,14 +675,14 @@ transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .input_for_e-mail {
     /*Стилізація поля вводу*/
-border-radius: 4px;
-border: 1px solid var(--WHITE, #FFF);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-background: var(--NAVY-BLUE, #2E2F42);
-width: 264px;
-height: 40px;
-/*Стилізація тексту*/
-color: var(--WHITE, #FFF);
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: var(--NAVY-BLUE, #2E2F42);
+    width: 264px;
+    height: 40px;
+    /*Стилізація тексту*/
+    color: var(--WHITE, #FFF);
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -693,7 +699,7 @@ color: var(--WHITE, #FFF);
 
 }
 
-.input_for_e-mail::placeholder{
+.input_for_e-mail::placeholder {
     /*Стилізація тексту підсказки*/
     color: var(--WHITE, #FFF);
     font-family: Roboto;
@@ -701,34 +707,34 @@ color: var(--WHITE, #FFF);
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    
+
     letter-spacing: 0.48px;
     text-align: left;
 }
 
-.button_for_e-mail{
+.button_for_e-mail {
     border: none;
-display: inline-flex;
-padding: 8px 24px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
-width: 165px;
-height: 40px;
-color: var(--WHITE, #FFF);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.64px;
-margin-left: 24px;
-min-width: 165px;
-font-family: "Roboto", sans-serif;
-cursor: pointer;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    width: 165px;
+    height: 40px;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    margin-left: 24px;
+    min-width: 165px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 .icon_footer_svg {
@@ -773,7 +779,7 @@ cursor: pointer;
     padding: 72px 24px 24px 24px;
 }
 
-.close_button{
+.close_button {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -828,7 +834,7 @@ cursor: pointer;
 
 .div_in_label_in_form {
     position: relative;
-    
+
 }
 
 .input_for_form_for_data {
