@@ -815,10 +815,12 @@ svg {
 
 .close_button_icon:hover {
     background-color: #404bbf;
+    fill: #ffffff
 }
 
 .close_button_icon:focus {
     background-color: #404bbf;
+    fill: #ffffff
 }
 
 .div_in_form_for_data {
@@ -849,6 +851,7 @@ svg {
 
 }
 
+
 .input_for_form_for_data {
     width: 100%;
     height: 40px;
@@ -874,12 +877,11 @@ svg {
 
 }
 
-.input_for_form_for_data .svg_for_form_for_data:focus {
+.svg_for_form_for_data:focus {
     fill: #4D5AE5;
 }
 
-
-.input_for_form_for_data .svg_for_form_for_data:hover {
+.svg_for_form_for_data:hover {
     fill: #4D5AE5;
 }
 
