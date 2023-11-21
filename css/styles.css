@@ -799,14 +799,21 @@ svg {
 .close_button:hover {
     background-color: #404bbf;
     border: none;
-    
 }
 
 .close_button:focus {
     background-color: #404bbf;
     border: none;
-    
 }
+
+.close_button:hover .close_button_icon {
+    fill: #ffffff;
+}
+
+.close_button:focus .close_button_icon {
+    fill: #ffffff;
+}
+
 
 .close_button_icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
