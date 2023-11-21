@@ -638,8 +638,8 @@ svg {
 
 
 .fotterli {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
@@ -792,9 +792,10 @@ svg {
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
-
+/*
 .close_button:hover {
     background-color: #404bbf;
     border: none;
@@ -806,17 +807,22 @@ svg {
     border: none;
     fill: #ffffff
 }
-
+*/
 
 .close_button_icon {
     fill: none;
+   
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close_button_icon:hover {
+    background-color: #404bbf;
     fill: #ffffff
 }
 
 .close_button_icon:focus {
+    background-color: #404bbf;
     fill: #ffffff
 }
 
@@ -834,7 +840,10 @@ svg {
 
 .div_in_form_for_data {
     margin-bottom: 4px;
-    
+}
+
+.div_in_form_for_data_form {
+    margin-bottom: 8px;
 }
 
 
@@ -845,7 +854,7 @@ svg {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 
@@ -874,12 +883,23 @@ svg {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    fill: #2a2a2a;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
-.svg_for_form_for_data:focus {
+.input_for_form_for_data .svg_for_form_for_data:focus {
     fill: #4D5AE5;
 }
+
+
+.input_for_form_for_data .svg_for_form_for_data:hover {
+    fill: #4D5AE5;
+}
+
+
+
+
 
 .div_for_input_text_area {
     margin-bottom: 16px;
