@@ -975,19 +975,18 @@ svg {
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
-.visually-hidden:checked + span {
+.visually-hidden[type="checkbox"]:checked + .span_for_text_area {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -1012,7 +1011,7 @@ svg {
     fill: transparent;
 }
 
-.span_for_text_area:checked {
+.span_for_text_area[type="checkbox"]:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
