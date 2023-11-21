@@ -964,6 +964,8 @@ svg {
     height: 16px;
 }
 
+/*Пятий елемент. Чекбокс.*/
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -978,11 +980,7 @@ svg {
     overflow: hidden;
 }
 
-
-
-/*Пятий елемент. Чекбокс.*/
-
-.visually-hidden:checked span {
+.visually-hidden:checked + span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
