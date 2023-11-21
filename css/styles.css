@@ -817,7 +817,6 @@ svg {
 
 .close_button_icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close_button_icon:hover {
@@ -986,7 +985,6 @@ svg {
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-      
 }
 
 
@@ -995,9 +993,7 @@ svg {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;
-    
-    
+    color: #8e8f99;   
 }
 
 .span_for_text_area {
