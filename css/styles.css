@@ -873,7 +873,6 @@ svg {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -892,7 +891,7 @@ svg {
     top: 50%;
     transform: translateY(-50%);
     fill: #2a2a2a;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -986,7 +985,7 @@ svg {
         overflow: hidden;
 }
 
-.visually-hidden[type="checkbox"]:checked + .span_for_text_area {
+.visually-hidden:checked + .label_for_text_area > .span_for_text_area {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
