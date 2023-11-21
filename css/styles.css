@@ -988,11 +988,7 @@ svg {
       
 }
 
-.visually-hidden:checked + .label_for_text_area > .span_for_text_area {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
+
 
 .label_for_text_area {
     font-size: 12px;
@@ -1013,6 +1009,12 @@ svg {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.visually-hidden:checked + .label_for_text_area > .span_for_text_area {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .button_send {
