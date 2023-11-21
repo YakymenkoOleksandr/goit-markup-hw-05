@@ -809,32 +809,16 @@ svg {
 }
 
 .close_button_icon {
-    fill: none;
-   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close_button_icon:hover {
     background-color: #404bbf;
-    fill: #ffffff
 }
 
 .close_button_icon:focus {
     background-color: #404bbf;
-    fill: #ffffff
-}
-
-.cross {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cross:hover {
-    fill: #ffffff;
-}
-
-.cross:focus {
-    fill: #ffffff;
 }
 
 .div_in_form_for_data {
@@ -845,6 +829,9 @@ svg {
     margin-bottom: 8px;
 }
 
+.div_in_form_for_data_form_coment {
+    margin-bottom: 16px;
+}
 
 
 .label_for_form_for_data {
