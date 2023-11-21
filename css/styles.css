@@ -942,16 +942,7 @@ svg {
 }
 
 
-.p_policy {
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-    /* 116.667% */
-    letter-spacing: 0.48px;
-    margin-bottom: 24px;
-}
+
 
 .a_policy {
     color: var(--IRIS, #4D5AE5);
@@ -972,6 +963,17 @@ svg {
 
 /*Пятий елемент. Чекбокс.*/
 
+.p_policy {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: 0.48px;
+    margin-bottom: 24px; 
+}
+
 .visually-hidden {
     position: absolute;
         width: 1px;
@@ -983,6 +985,7 @@ svg {
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+      
 }
 
 .visually-hidden:checked + .label_for_text_area > .span_for_text_area {
@@ -996,6 +999,8 @@ svg {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    
+    
 }
 
 .span_for_text_area {
@@ -1008,6 +1013,7 @@ svg {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    
 }
 
 .span_for_text_area[type="checkbox"]:checked {
