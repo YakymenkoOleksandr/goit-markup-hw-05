@@ -27,7 +27,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #434455;
-    width: 1440px;
 }
 
 a {
@@ -208,10 +207,11 @@ svg {
 .sectionone {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     padding: 188px 0;
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 
 }
 
@@ -746,8 +746,8 @@ svg {
 /*Модальна форма для введення данних*/
 
 .div_for_modal_form {
-    display: flex;
-    align-items: center;
+    /*display: flex;*/
+    /*align-items: center;*/
     flex-direction: column;
     border-radius: 4px;
     background: var(--DAIRY, #FCFCFC);
@@ -833,8 +833,8 @@ svg {
 }
 
 .div_in_form_for_data {
-    /*margin-bottom: 8px;*/
-    margin-bottom: 16px;
+    margin-bottom: 4px;
+    
 }
 
 
@@ -993,6 +993,12 @@ svg {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.span_for_text_area:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .button_send {
