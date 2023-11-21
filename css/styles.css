@@ -815,12 +815,12 @@ svg {
 
 .close_button_icon:hover {
     background-color: #404bbf;
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .close_button_icon:focus {
     background-color: #404bbf;
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .div_in_form_for_data {
