@@ -795,19 +795,18 @@ svg {
     
 }
 
-/*
+
 .close_button:hover {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff
+    
 }
 
 .close_button:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff
+    
 }
-*/
 
 .close_button_icon {
     fill: none;
