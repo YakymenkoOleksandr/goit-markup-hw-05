@@ -718,7 +718,7 @@ svg {
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    /*gap: 16px;*/
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     width: 165px;
@@ -737,6 +737,7 @@ svg {
 }
 
 .icon_footer_svg {
+    margin-left: 16px;
     fill: #f4f4fd;
 }
 
